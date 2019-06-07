@@ -30,15 +30,15 @@ var editable = require("./routes/editable");
 
 //hbs
 
-hbs.registerHelper("each", function(context, options) {
-  var ret = "";
+// hbs.registerHelper("each", function(context, options) {
+//   var ret = "";
 
-  for (var i = 0, j = context.length; i < j; i++) {
-    ret = ret + options.fn(context[i]);
-  }
+//   for (var i = 0, j = context.length; i < j; i++) {
+//     ret = ret + options.fn(context[i]);
+//   }
 
-  return ret;
-});
+//   return ret;
+// });
 //init gfs
 
 let gfs;
