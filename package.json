@@ -14,7 +14,7 @@
     "body-parser": "*",
     "connect-flash": "*",
     "cookie-parser": "^1.4.1",
-    "datatables.net": "^1.10.19",
+    "datatables.net": "^1.10.22",
     "express": "*",
     "express-handlebars": "*",
     "express-messages": "*",
